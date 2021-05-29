@@ -37,10 +37,7 @@ public class Group {
     public void removeMember(String member){
         this.members.remove(member);
     }
-    public Group(){
-        this.GroupName= "Group18";
-        this.members.add("Duraid");
-    }
+
     public Group(String name){
         this.GroupName = name;
         this.members= new ArrayList<>();
