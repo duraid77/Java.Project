@@ -8,5 +8,13 @@ public class Employee {
         double annualSalary = hourlyRate * 8 * 5 * 52;
         annualSalary *= 1.1; // plus 10% bonus
         return annualSalary;
+
+        }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "jobTitle='" + jobTitle + '\'' +
+                '}';
     }
 }
