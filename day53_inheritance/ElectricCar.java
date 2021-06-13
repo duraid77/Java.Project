@@ -1,11 +1,12 @@
 package day53_inheritance;
 
 public class ElectricCar {
-    private String make:
+    private String make;
     private String model;
     private double price;
     private int year;
     private int range;
+    public static int count;
 
     public ElectricCar(String make, String model, double price, int year, int range) {
         this.make = make;
@@ -13,6 +14,8 @@ public class ElectricCar {
         this.price = price;
         this.year = year;
         this.range = range;
+        count++;
+        System.out.println("Constrcter for Electric car");
     }
 
     protected void drive(int miles){
@@ -23,6 +26,13 @@ public class ElectricCar {
     }
     }
 
+    public static int getCount() {
+        return count;
+    }
+
+    public static void setCount(int count) {
+        ElectricCar.count = count;
+    }
 
     public int getRange() {
         return range;
