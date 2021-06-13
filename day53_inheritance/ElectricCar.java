@@ -7,6 +7,7 @@ public class ElectricCar {
     private int year;
     private int range;
     public static int count;
+    public static final int MAX_RAMGE = 400;
 
     public ElectricCar(String make, String model, double price, int year, int range) {
         this.make = make;
@@ -16,6 +17,11 @@ public class ElectricCar {
         this.range = range;
         count++;
         System.out.println("Constrcter for Electric car");
+    }
+
+    public final void charge(){
+        System.out.println("charging car using plug in");
+        this.range = MAX_RAMGE;
     }
 
     protected void drive(int miles){
