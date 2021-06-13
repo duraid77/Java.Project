@@ -9,6 +9,7 @@ public class Phone {
     }
 
     public void call(){
+        use();
         System.out.println("using the phone to make a call");
     }
 }
