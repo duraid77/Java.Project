@@ -13,7 +13,7 @@ public class FireFoxDriver implements WebDriver{
 
     @Override
     public void quit() {
-
+        System.out.println("close browser");
     }
 
     @Override
