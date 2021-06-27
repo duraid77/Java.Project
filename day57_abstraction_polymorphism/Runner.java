@@ -5,6 +5,8 @@ public class Runner {
         //Can not creat objects from abstract or interface classes as below. This is error
 //        AbstractA absA = new AbstractA();
 //        InterfaceA iA = new InterfaceA();
+
+        InterfaceA.staticMethodE("Wooden spoon");
         }
     }
 
