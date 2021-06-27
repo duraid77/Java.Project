@@ -4,11 +4,17 @@ public abstract class AbstractA {
 
     int num1;
     private double price;
-    public static int count;
+    static int count;
     public final String type= "abstract";
     public static final String LANGUAGE = "java";
 
+    public AbstractA(){
+        System.out.println("Abstracter class constructor");
+    }
+    //Abstract method can not be private or static or final
+    //Abstract methods are created to be overridden in concrete/child classes
     public abstract void absMethodA();
+
     public void methodB(){
         System.out.println("methodB");
     }
