@@ -1,4 +1,4 @@
-package day57_abstraction_polymorphism.exception_handling;
+package day59_polymorphism_exceptions.exception_handling;
 
 public class TryCatch {
     public static void main(String[] args) {

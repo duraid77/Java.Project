@@ -1,4 +1,4 @@
-package day57_abstraction_polymorphism.exception_handling;
+package day59_polymorphism_exceptions.exception_handling;
 
 public class RunTimeErrorExample {
     public static void main(String[] args) {
