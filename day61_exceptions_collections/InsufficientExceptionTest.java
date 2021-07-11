@@ -8,5 +8,7 @@ public class InsufficientExceptionTest {
         if( itemPrice > Balance){
             throw new InsufficientBalanceException("You don't have enough money");
         }
+
+        System.out.println("Item successfully purchased");
     }
 }
